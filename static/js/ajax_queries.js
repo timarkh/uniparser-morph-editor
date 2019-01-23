@@ -106,6 +106,12 @@ function process_keypress(e) {
 			$(this).val($(this).val().replace(/ *[,.;()].*/g, ""));
 		});
 	}
+	else if (e.key == "-") {
+		// Mark lemma for removal
+		$(".form-control-lemma").each(function (indexGr) {
+			$(this).val($(this).val() + "-");
+		});
+	}
 	else {
 		$(".btn-tag").each(function (indexTag) {
 			if (e.key == $(this).attr("data-key")) {
