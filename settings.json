@@ -1,0 +1,20 @@
+﻿{
+  "dirname": "komi_dict",
+  "filename": "kpv_lexemes_N.txt",
+  "cur_lemma": 5008,
+  "tags": {
+    "r": "rus",
+    "h": "anim,hum",
+    "b": "body",
+    "w": "transport",
+    "f": "PN,famn",
+    "n": "PN,persn",
+    "p": "PN,patrn",
+    "a": "anim",
+    "q": "time_meas",
+    "t": "tr",
+    "i": "intr",
+    "o": "oblin",
+    "s": "supernat"
+  }
+}

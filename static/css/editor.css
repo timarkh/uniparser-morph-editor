@@ -1,0 +1,61 @@
+.btn-tag {
+	border: 2px solid peachpuff;
+	margin: 4px;
+	padding: .250rem .50rem;
+	font-size: 0.9rem;
+}
+
+.btn-tag-on {
+	border: 2px solid orange;
+	background-color: bisque;
+}
+
+.form-group {
+	margin-bottom: 3px;
+}
+
+.form-control {
+	color: black;
+	font-size: 1.1rem;
+	font-family: Courier;
+}
+
+.form-control:focus {
+	color: black;
+	font-size: 1.2rem;
+}
+
+.form-control-trans {
+	color: #003790;
+	font-family: Cambria;
+}
+
+.form-control-trans:focus {
+	color: #003790;
+	font-family: Cambria;
+}
+
+.col-form-label {
+	padding-right: 3px;
+	color: #495057;
+}
+
+.edit_header {
+	background: skyblue;
+	padding: 15px;
+	color: white;
+	font-size: 1.2rem;
+	margin-top: 100px;
+	margin-bottom: 25px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#time_stats {
+	margin-top: 15px;
+	font-size: 0.75rem;
+	color: gray;
+}
+
+#tag_buttons {
+	margin-top: 50px;
+}

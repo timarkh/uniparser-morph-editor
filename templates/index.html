@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" type="text/css" href="static/bootstrap-4.2.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="static/css/editor.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type='text/javascript' src='static/bootstrap-4.2.1-dist/js/bootstrap.min.js'></script>
+  <script type='text/javascript' src='static/js/ajax_queries.js'></script>
+  <title>{{ settings.filename }} -- editing</title>
+</head>
+<body>
+<div class="container my-auto">
+<div class="col-lg-8 mx-auto">
+<p class="edit_header">{{ settings.filename }}</p>
+<form id="lemma_form">
+</form>
+</div>
+<div class="col-lg-8 mx-auto" id="tag_buttons">
+<p></p>
+</div>
+<button id="prev_word">&lt;</button> <button id="save_dict">S</button> <button id="next_word">&gt;</button>
+</div>
+</body>
+</html>
