@@ -52,7 +52,7 @@ class GrammDict:
         filename = os.path.join(self.settings['dirname'], self.settings['filename'])
         fOut = open(filename, 'w', encoding='utf-8-sig')
         fOut.write('\n\n'.join('-lexeme\n ' + '\n '.join(kv[0] + ': ' + kv[1] for kv in l)
-                               for l in self.lemmaList))
+                               for l in self.lemmaList) + '\n')
         fOut.close()
 
     def save_settings(self):
