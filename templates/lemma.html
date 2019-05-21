@@ -5,6 +5,8 @@
 <div class="col-sm-8"><input type="text" class="form-control form-control-trans" name="input_{{ kv[0] }}_{{ loop.index }}" id="input_{{ kv[0] }}_{{ loop.index }}" value="{{ kv[1] }}"></div>
 {% elif kv[0] == 'gramm' %}
 <div class="col-sm-5"><input type="text" class="form-control form-control-gramm" name="input_{{ kv[0] }}_{{ loop.index }}" id="input_{{ kv[0] }}_{{ loop.index }}" value="{{ kv[1] }}"></div>
+{% elif kv[0] == 'examples' %}
+<div class="col-sm-8"><input type="text" class="form-control form-control-examples" name="input_{{ kv[0] }}_{{ loop.index }}" id="input_{{ kv[0] }}_{{ loop.index }}" value="{{ kv[1] }}"></div>
 {% elif kv[0] == 'lex' %}
 <div class="col-sm-5"><input type="text" class="form-control form-control-lemma" name="input_{{ kv[0] }}_{{ loop.index }}" id="input_{{ kv[0] }}_{{ loop.index }}" value="{{ kv[1] }}"></div>
 {% else %}

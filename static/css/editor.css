@@ -22,12 +22,17 @@
 
 .form-control:focus {
 	color: black;
-	font-size: 1.2rem;
 }
 
 .form-control-trans {
 	color: #003790;
 	font-family: Cambria;
+}
+
+.form-control-examples {
+	color: #003790;
+	font-family: Cambria;
+	font-size: 0.8rem;
 }
 
 .form-control-trans:focus {

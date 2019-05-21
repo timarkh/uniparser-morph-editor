@@ -96,14 +96,13 @@ function process_keypress(e) {
 	else if (e.key == "1") {
 		// Leave only the first segment in translations
 		$(".form-control-trans").each(function (indexGr) {
-			$(this).val($(this).val().replace(/ *[,.;()].*/g, ""));
+			$(this).val($(this).val().replace(/^[0-9.,(): ]*([^,.;()]*?) *[,.;()].*/g, "$1"));
 		});
 	}
 	else if (e.key == "2") {
 		// Leave only the second segment in translations
 		$(".form-control-trans").each(function (indexGr) {
-			$(this).val($(this).val().replace(/^[^,.;()]*[,.;(] */g, ""));
-			$(this).val($(this).val().replace(/ *[,.;()].*/g, ""));
+			$(this).val($(this).val().replace(/^[0-9.,(): ]*([^,.;()]*?) *[0-9]*[,.;()][0-9.,(): ]*([^,.;()]*?) *(?:[,.;()].*$|$)/g, "$2"));
 		});
 	}
 	else if (e.key == "-") {
@@ -144,5 +143,5 @@ function assign_input_events() {
 	$("#prev_word").click(get_prev_word);
 	$("#next_word").click(get_next_word);
 	$("#save_dict").click(save_dict);
-	$(document).keypress(process_keypress);
+	$(document).keydown(process_keypress);
 }

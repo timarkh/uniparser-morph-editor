@@ -1,20 +1,23 @@
 ﻿{
-  "dirname": "komi_dict",
-  "filename": "kpv_lexemes_N.txt",
-  "cur_lemma": 10782,
+  "filename": "lexemes.txt",
   "tags": {
-    "r": "rus",
-    "h": "anim,hum",
+    "n": "PN,persn",
+    "a": "anim",
+    "f": "PN,famn",
+    "i": "intr",
     "b": "body",
     "w": "transport",
-    "f": "PN,famn",
-    "n": "PN,persn",
     "p": "PN,patrn",
-    "a": "anim",
-    "q": "time_meas",
-    "t": "tr",
-    "i": "intr",
-    "o": "oblin",
-    "s": "supernat"
-  }
+    "r": "rus",
+    "s": "supernat",
+    "h": "anim,hum",
+    "t": "PN,topn",
+    "m": "missp",
+    "`": "N",
+    "v": "V",
+    "z": "A",
+    "q": "deriv"
+  },
+  "dirname": "mari_dict",
+  "cur_lemma": 12
 }
